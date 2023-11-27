@@ -1,0 +1,149 @@
+@font-face {
+    font-family: recoleta;
+    src: url("./fonts/RecoletaAlt-Black.ttf");
+}
+
+@font-face {
+    font-family: forum;
+    src: url("./fonts/Forum-Regular.ttf");
+}
+
+body{
+    background-image: linear-gradient(rgb(246, 22, 67), #33050e);
+    margin:0;
+    padding:0;
+    font-family: forum;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color:crimson;
+    color: white;
+    padding: 1.5vmin;
+    align-items: center;
+    font-size: 4vmin;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    font-family: recoleta;
+    font-size: 4.5vw;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: .25vmin;
+    margin-bottom: .25vmin;
+    font-size: 1.5vw;
+}
+
+p{
+    font-size: 2vw;
+}
+
+.title{
+    display: flex;
+}
+
+.tText{
+    position:absolute;
+    top: 15%;
+    left: 1%;
+    color: white;
+    line-height: 0%;
+}
+
+.quote1{
+    display:flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-family: recoleta;
+    font-size: 4vw;
+    line-height: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1.5vmin;
+    color: white;
+}
+
+.levels{
+    padding-top: .7vmin;
+}
+
+.level{
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 3vw;
+    margin-bottom: 1.8vmin;
+    margin-right: 1.5vmin;
+    margin-left: 1.5vmin;
+    padding-left: 2vmin;
+    padding-bottom: 1.5vmin;
+    padding-top: 1.5vmin;
+}
+
+.imgdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-top: 1.3vmin;
+    margin-bottom: 1.3vmin;
+    padding:2%;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    width:60%;
+}
+
+.wordsdiv{
+    width: 50%;
+    margin-top: 1.3vmin;
+    margin-bottom: 1.3vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.lust{
+    background-color: #C42539;
+}
+
+#inferno{ 
+    font-family: recoleta;
+    font-size: 10vw;
+}
+
+#danteportrait{
+    max-width: 100%;
+    height:auto;
+}
+
+#bydante{
+    font-size: 4.5vw;
+}
+
+#izzie{
+    font-size: 3vw;
+}
